@@ -6,7 +6,7 @@ const EmployeeDashboard = (props) => {
   
   return (
     <div>
-        <EmployeeHeader changeUser = {props.changeUser}/>
+        <EmployeeHeader changeUser = {props.changeUser} name={props.data?.name}/>
         <TaskNumbersList/>
         <TasksList data = {props.data}/>
     </div>

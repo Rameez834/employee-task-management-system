@@ -16,7 +16,7 @@ const EmployeeHeader = (props) => {
         </h1>
 
         <h2 className="text-4xl font-bold text-white mt-1">
-          Employee Name
+          {props.name}
         </h2>
       </div>
 
